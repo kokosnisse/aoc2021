@@ -13,9 +13,7 @@ def main():
 	dX = {'down':0, 'up':0, 'forward':1}
 	
 	# Initialize variables
-	x = 0
-	y = 0
-	z = 0
+	x = y = z = 0
 	
 	# Process instructions to calculate the planned course
 	for instr in instructions:
