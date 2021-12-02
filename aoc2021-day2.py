@@ -19,7 +19,7 @@ def main():
 	
 	# Process instructions to calculate the planned course
 	for instr in instructions:
-		direction, steps = tuple(instr.split()) 
+		direction, steps = instr.split()
 		steps = int(steps)
 		x += dX[direction]*steps 
 		y += dY[direction]*steps
